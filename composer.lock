@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0e58563dbadb1e92e9a6b6083e4972fc",
+    "packages": [
+        {
+            "name": "rayne/ecoji",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rayne/ecoji-php.git",
+                "reference": "596acbbca8f53268b225b4dd2ec41ea2577def55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rayne/ecoji-php/zipball/596acbbca8f53268b225b4dd2ec41ea2577def55",
+                "reference": "596acbbca8f53268b225b4dd2ec41ea2577def55",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.10",
+                "phpunit/phpunit": "^6.0"
+            },
+            "bin": [
+                "bin/ecoji"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rayne\\Ecoji\\": [
+                        "src",
+                        "tests"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dennis Meckel"
+                }
+            ],
+            "description": "Encodes (and decodes) data as emojis. Implementation of the Ecoji Standard.",
+            "keywords": [
+                "base1024",
+                "decoding",
+                "ecoji",
+                "emoji",
+                "encoding"
+            ],
+            "time": "2018-03-14T23:45:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
